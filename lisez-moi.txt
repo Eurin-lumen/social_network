@@ -1,3 +1,4 @@
 La réalisation de ce réseau social va suivre le plan suivant
 1 = > réalisation de la page d'accueil
 2 = > connexion à la base de donnée
+3 = > Quelques astuces en compléments
