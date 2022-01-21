@@ -1,0 +1,9 @@
+La réalisation de ce réseau social va suivre le plan suivant
+1 = > réalisation de la page d'accueil
+2 = > connexion à la base de donnée
+3 = > Quelques astuces en compléments  #je vais y revenir
+4 = > La page d'inscription {0}
+5 = > la page d'inscription {1}
+6 = > la page d'inscription {2}
+7 = > la page d'inscription {4} // les tables au niveau de la bdd
+8 = > la page d'inscription {5}'
