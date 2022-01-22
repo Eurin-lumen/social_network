@@ -30,7 +30,7 @@
               <label for="email" class="control-label">Adresse Email : </label>
               <input type="email" name="email" value="" class="form-control" id="email" id="email" required/>
           
-          </div>
+          </div>  
           
               <!-- Password field -->
               <div class="form-group">
