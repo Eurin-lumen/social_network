@@ -1,4 +1,5 @@
 <?php 
+session_start();
 // inclure la connexion à la base de donnée de
 require('config/database.php');
 // requérir la fonction 
@@ -65,15 +66,17 @@ require('includes/constants.php');
 
 
                         // informer l'utilisateurs
+                        //echo '<div class="alert alert-success"> Mail Activaction Envoyé </div>';
 
-                        echo '<div class="alert alert-success"> Mail Activaction Envoyé </div>';
+                        set_flash('<div class="alert alert-success"> Mail Activaction Envoyé </div>', "Success");
+                        header('Location:index.php');
+                        exit();
+
                     }
-                }else{
+                }else
                     $errors[] = "Veuillez remplir tout les champs";
 
-                }
-
-    }
+        }
 ?>
 
 <?php require('views/register.view.php');?>

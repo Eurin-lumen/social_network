@@ -45,3 +45,20 @@ if(! function_exists('is_already_in_use')){
 
     }
 }
+
+
+if(!function_exists('set_flash')){
+    function set_flash($message, $type = 'info'){
+        $_SESSION['notification']['message'] = $message;
+        $_SESSION['notification']['type'] = $type;
+
+    }
+}
+$page= 'index.php';
+
+if(!function_exists('redirect')){
+    function redirect($page){
+        header('Location:' .$page);
+        exit();
+    }
+}
