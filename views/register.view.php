@@ -16,19 +16,19 @@
           <!-- Name field -->
           <div class="form-group">
               <label for="name" class="control-label">Nom : </label>
-              <input type="text" name="name" value="" class="form-control"  id="name" required/>
+              <input type="text" value="<?= get_input('name')?>" name="name" value="" class="form-control"  id="name" required/>
           
           </div>
               <!-- Pseudo field -->
               <div class="form-group">
               <label for="pseudo" class="control-label">Pseudo : </label>
-              <input type="text" name="pseudo" value="" class="form-control"id="pseudo"required/>
+              <input type="text" value="<?= get_input('pseudo')?>" name="pseudo" value="" class="form-control"id="pseudo"required/>
           
           </div>
               <!-- Email field -->
               <div class="form-group">
               <label for="email" class="control-label">Adresse Email : </label>
-              <input type="email" name="email" value="" class="form-control" id="email" id="email" required/>
+              <input type="email" value="<?= get_input('email')?>"name="email" value="" class="form-control" id="email" id="email" required/>
           
           </div>  
           

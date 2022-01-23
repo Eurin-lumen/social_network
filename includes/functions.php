@@ -4,7 +4,14 @@
 // verifier si chaque champs n'est pas vide 
 // des qu'on trouve un champs qui est vide on retourne false 
 // dans le cas contraire on retourne true
-
+if(!function_exists('e')){
+    function e($string ){
+        if($string){
+            return htmlspecialchars($string);
+        }
+        
+    }
+}
 
 if(!function_exists('not_empty')){
     function not_empty($fields = []){
@@ -54,7 +61,7 @@ if(!function_exists('set_flash')){
 
     }
 }
-$page= 'index.php';
+
 
 if(!function_exists('redirect')){
     function redirect($page){
@@ -62,3 +69,40 @@ if(!function_exists('redirect')){
         exit();
     }
 }
+
+if(!function_exists('save_input_data')){
+    function save_input_data(){
+        foreach($_POST as $key => $value){
+            if(strpos($key, 'password') == false ){
+                $_SESSION['input'][$key]= $value;
+
+
+            }
+        }
+     }
+}
+
+
+if(!function_exists('get_input')){
+    function get_input($key){
+       /*  if(!empty($_SESSION['input'][$key])){
+           return $_SESSION['input'][$key];
+        }else{
+            return null;
+        }
+     */
+
+    return !empty($_SESSION['input'][$key])
+    ? e($_SESSION['input'][$key])
+    : null;
+    } 
+
+}
+if(!function_exists('clear_input_data')){
+    function clear_input_data(){
+        if(isset($_SESSION['input']['input'])){
+            $_SESSION['input'] = []; 
+        }
+    }
+}
+

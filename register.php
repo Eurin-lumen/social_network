@@ -72,10 +72,16 @@ require('includes/constants.php');
                         header('Location:index.php');
                         exit();
 
+                    }else{
+                        save_input_data();
                     }
                 }else
                     $errors[] = "Veuillez remplir tout les champs";
+                    save_input_data();
+                   
 
+        }else{
+            clear_input_data();
         }
 ?>
 
