@@ -69,6 +69,17 @@ require('includes/constants.php');
                         //echo '<div class="alert alert-success"> Mail Activaction Envoyé </div>';
 
                         set_flash('<div class="alert alert-success"> Mail Activaction Envoyé </div>', "Success");
+// insertion des données dans la base de données
+                        $q = $db ->prepare('INSERT INTO users(name, pseudo, email, password)
+                                             VALUES(:name, :pseudo, :email, :password)');
+                        $q -> execute([
+                            'name' => $name,
+                            'pseudo' => $pseudo,
+                            'email' => $email,
+                            'password' => sha1($password)
+
+
+                        ]);
                         header('Location:index.php');
                         exit();
 

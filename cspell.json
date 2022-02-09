@@ -6,6 +6,8 @@
     "words": [
         "niveau"
     ],
-    "ignoreWords": [],
+    "ignoreWords": [
+        "enregistrement"
+    ],
     "import": []
 }

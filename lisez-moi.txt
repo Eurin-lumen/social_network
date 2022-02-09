@@ -9,3 +9,4 @@ La réalisation de ce réseau social va suivre le plan suivant
 8 = > la page d'inscription {5}'
 9 = > la page d'inscription {6}'
 10 = > la page d'inscription {7}'
+11 = > la page d'inscription {8} = enregistrement dans la base de donnée.

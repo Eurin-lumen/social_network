@@ -31,7 +31,7 @@
               <input type="email" value="<?= get_input('email')?>"name="email" value="" class="form-control" id="email" id="email" required/>
           
           </div>  
-          
+
               <!-- Password field -->
               <div class="form-group">
               <label for="password" class="control-label">Mot de passe: </label>
@@ -43,7 +43,7 @@
               <div class="form-group">
               <label for="password_confirm" class="control-label">Confirmer votre mot de passe : </label>
               <input type="password" name="password_confirm" value="" class="form-control" id="password_confirm" required/>
-          
+
           </div>
 
           <input type="submit" value="Inscription" name="register" class="btn btn-primary">
@@ -52,5 +52,5 @@
         </form>
       </div>
   </div>
-  
+
   <?php include('partials/_footer.php'); ?>
