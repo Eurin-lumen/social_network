@@ -4,10 +4,12 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
-        "niveau"
+        "niveau",
+        "valeur"
     ],
     "ignoreWords": [
-        "enregistrement"
+        "enregistrement",
+        "minlenght"
     ],
     "import": []
 }
