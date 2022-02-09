@@ -23,7 +23,7 @@ if(not_empty($_GET['p'])
 
         redirect('login.php');
     }else{
-        set_flash('parametre invalides', 'danger');
+        set_flash('Jeton de sécurité invalides', 'danger');
         redirect('index.php');
     }
 

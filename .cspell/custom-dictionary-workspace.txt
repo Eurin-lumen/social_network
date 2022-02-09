@@ -50,6 +50,7 @@ inclure
 informations
 invalide
 invalides
+Jeton
 l'utilisateurs
 maintenant
 membre
@@ -73,6 +74,7 @@ remplis
 rencontrer
 requérir
 revenir
+sécurité
 soumis
 suivant
 suivre
