@@ -9,6 +9,6 @@
 <body>
     <h1 class="">Activation de compte</h1>
     <p> Pour activer votre compte, veuillez cliquez sur le lien  ci-dessous:</p>
-    <a href="<?= WEBSITE_URL.'/activation.php?user='.$pseudo.'&amp;token='.$token ?>" class="">Lien d'activation</a>
+    <a href="<?= WEBSITE_URL.'/activation.php?p='.$pseudo.'&amp;token='.$token ?>" class="">Lien d'activation</a>
 </body>
 </html>

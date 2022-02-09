@@ -52,6 +52,7 @@ require('includes/constants.php');
                         // envoi de mail d'activation
                         $to = $email;
                         $subject = WEBSITE_NAME."- ACTIVATION DE COMPTE";
+                        $password = sha1($password);
                         $token = sha1($pseudo.$email.$password);
                         //garder les informations au niveau de la memoire tampon
                         ob_start();
