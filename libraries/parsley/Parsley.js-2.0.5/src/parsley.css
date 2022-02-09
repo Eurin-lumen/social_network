@@ -1,9 +1,3 @@
-body {
-    padding-top: 70px;
-}
-
-/*parsley css*/
-
 input.parsley-success,
 select.parsley-success,
 textarea.parsley-success {
@@ -27,7 +21,6 @@ textarea.parsley-error {
   font-size: 0.9em;
   line-height: 0.9em;
   opacity: 0;
-  color:darkred;
   -moz-opacity: 0;
   -webkit-opacity: 0;
 
@@ -41,5 +34,3 @@ textarea.parsley-error {
 .parsley-errors-list.filled {
   opacity: 1;
 }
-
-/* parsley css */
