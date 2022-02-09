@@ -7,3 +7,5 @@ La réalisation de ce réseau social va suivre le plan suivant
 6 = > la page d'inscription {2}
 7 = > la page d'inscription {4} // les tables au niveau de la bdd
 8 = > la page d'inscription {5}'
+9 = > la page d'inscription {6}'
+10 = > la page d'inscription {7}'
