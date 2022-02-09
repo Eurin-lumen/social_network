@@ -17,6 +17,7 @@ Automatisation
 avec
 avez
 bien
+bootstrapcdn
 caractères
 cette
 chaîne
@@ -66,6 +67,8 @@ fonction
 formulaire
 garder
 gérer
+identifiant
+Identifiant
 identique
 inclure
 inféreure
@@ -76,6 +79,7 @@ Jeton
 l'état
 l'utilisateurs
 maintenant
+maxcdn
 maxcheck
 maxlength
 membre

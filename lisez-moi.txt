@@ -12,4 +12,5 @@ La réalisation de ce réseau social va suivre le plan suivant
 11 = > la page d'inscription {8} = enregistrement dans la base de donnée.
 12 = > ETAT ACTIF DU MENU {9} 
 13 => Inline validation
+14 = > partie connexion
 
