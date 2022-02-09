@@ -106,3 +106,16 @@ if(!function_exists('clear_input_data')){
     }
 }
 
+// gérer l'état actif de nos differentes  lien
+if(!function_exists('set_active')){
+    function set_active($file, $class = "active"){
+        $page = array_pop(explode('/', $_SERVER['SCRIPT_NAME']));
+
+        if($page == $file.'php'){
+            return $class;
+        }else{
+            return "";
+        }
+
+    }
+}

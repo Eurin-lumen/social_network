@@ -1,5 +1,6 @@
 # Custom Dictionary Words
 Accueil
+actif
 Activaction
 activer
 Addresse
@@ -26,6 +27,7 @@ connexion
 constante
 contenue
 Créer
+curseur
 d'accueil
 d'amitiés
 d'erreur
@@ -36,21 +38,27 @@ developper
 développeur
 développeurs
 Devenez
+differentes
 dite
 données
 échangers
 Efficace
 Envoyé
 Eurin
+existe
+faites
+fermer
 FICHIERS
 fonction
 formulaire
 garder
+gérer
 inclure
 informations
 invalide
 invalides
 Jeton
+l'état
 l'utilisateurs
 maintenant
 membre
@@ -64,6 +72,7 @@ possibilité
 présent
 problèmes
 projets
+quand
 Quelques
 Rapide
 réalisation
@@ -73,6 +82,10 @@ remplir
 remplis
 rencontrer
 requérir
+requete
+resultat
+résultat
+retourne
 revenir
 sécurité
 soumis
@@ -80,8 +93,10 @@ suivant
 suivre
 tard
 tisser
+trouve
 utilisé
 vais
+verifie
 Veuillez
 votre
 vous
