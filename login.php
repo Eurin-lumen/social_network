@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 // inclure la connexion à la base de donnée de
 require('config/database.php');

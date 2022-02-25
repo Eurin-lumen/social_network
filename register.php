@@ -81,7 +81,7 @@ require('includes/constants.php');
 
 
                         ]);
-                        header('Location:index.php');
+                        redirect('Location:index.php');
                         exit();
 
                     }else{

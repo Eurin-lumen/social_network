@@ -56,6 +56,8 @@ Elle
 entier
 Envoyé
 equalto
+Erreur
+ERRMODE
 être
 Eurin
 excéder
