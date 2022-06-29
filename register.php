@@ -1,6 +1,8 @@
 <?php 
 session_start();
+include('filters/guest_filter.php');
 // inclure la connexion à la base de donnée de
+
 require('config/database.php');
 // requérir la fonction 
 require('includes/functions.php');
@@ -63,6 +65,7 @@ require('includes/constants.php');
                         $headers .= "Content-Type: text/html; charset=UTF-8"."\r\n";
 
                         mail($to, $subject, $content, $headers);
+                   
 
 
 

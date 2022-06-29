@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('filters/guest_filter.php');
 // inclure la connexion à la base de donnée de
 require('config/database.php');
 // requérir la fonction 
@@ -13,7 +14,7 @@ require('includes/constants.php');
         if(not_empty(['identifiant','password'])){
             extract($_POST);
 
-            $q = $db->prepare("SELECT id FROM users 
+            $q = $db->prepare("SELECT id, pseudo FROM users 
                                WHERE ( pseudo = :identifiant OR email = :identifiant)
                                AND password = :password  AND active ='1' ");
             $q->execute([
@@ -24,6 +25,12 @@ require('includes/constants.php');
             $userHasBeenFound = $q->rowCount();
 
             if($userHasBeenFound){
+
+                $user = $q->fetch(PDO::FETCH_OBJ);
+                    die($user->pseudo);
+
+                $_SESSION['user_id'] = $user->id;
+                $_SESSION['pseudo'] = $user->pseudo;
                 redirect('profile.php');
             }else{
                 set_flash('Combination Identifiant/ Password Incorrect ! ', 'danger');
